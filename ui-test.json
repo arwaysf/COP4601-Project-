@@ -170,8 +170,4 @@
         ["xpath=//div[2]/form/input[3]", "xpath:position"]
       ],
       "value": ""
-    }, {
-      "id": "ccdcc352-e7d3-492b-afa3-6c43f2bec022",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Ask a
+    },
