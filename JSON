@@ -1,0 +1,177 @@
+{
+  "id": "49ca6c73-1a24-4957-b8c7-b34687ae4052",
+  "version": "2.0",
+  "name": "SeleniumUI",
+  "url": "https://openweathermap.org",
+  "tests": [{
+    "id": "3855cd1a-768b-4665-a610-5d301e6807b1",
+    "name": "test ",
+    "commands": [{
+      "id": "33006aa6-d905-49a3-a61f-2fe30c3b424d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05186790-b10b-4597-b564-ce7b0ee9e62a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "999x950",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc474535-0b3c-4933-9e84-bacdb0c479ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=#hamburger > img",
+      "targets": [
+        ["css=#hamburger > img", "css:finder"],
+        ["xpath=//img[@alt='icon hamburger']", "xpath:img"],
+        ["xpath=//li[@id='hamburger']/img", "xpath:idRelative"],
+        ["xpath=//li[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46710995-87b1-41f5-bfe3-d0298974bd37",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=li:nth-child(13) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sign in')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='mobile-menu']/li[13]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://openweathermap.org/home/sign_in')])[2]", "xpath:href"],
+        ["xpath=//li[13]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f2f69a-bc31-4ea7-b35e-e3cb3db696ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_email",
+      "targets": [
+        ["id=user_email", "id"],
+        ["name=user[email]", "name"],
+        ["css=.input-group > #user_email", "css:finder"],
+        ["xpath=//input[@id='user_email']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc52277e-669a-4935-99f5-2c510d9329f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_email",
+      "targets": [
+        ["id=user_email", "id"],
+        ["name=user[email]", "name"],
+        ["css=.input-group > #user_email", "css:finder"],
+        ["xpath=//input[@id='user_email']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "arwa.mohaysx@gmail.com"
+    }, {
+      "id": "a3ed6c7b-6ed7-4b9c-bc1c-818b6c9ab154",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_password",
+      "targets": [
+        ["id=user_password", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user_password", "css:finder"],
+        ["xpath=//input[@id='user_password']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "630e91cf-dce8-4aae-9219-3e7be260b2c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_password",
+      "targets": [
+        ["id=user_password", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user_password", "css:finder"],
+        ["xpath=//input[@id='user_password']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123454321"
+    }, {
+      "id": "dca3a1c2-174d-4723-b6bc-5d67a7cce506",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/input[3]", "xpath:idRelative"],
+        ["xpath=//div/div/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86fa8528-2230-4c30-9a04-16d64b48cc2f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My profile",
+      "targets": [
+        ["linkText=My profile", "linkText"],
+        ["css=#myTab > li:nth-child(8) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'My profile')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='myTab']/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/home')])[2]", "xpath:href"],
+        ["xpath=//div/div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83ca393d-c80c-4dc6-abed-c2299c7f80fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=profile_form_full_name",
+      "targets": [
+        ["id=profile_form_full_name", "id"],
+        ["name=profile_form[full_name]", "name"],
+        ["css=#profile_form_full_name", "css:finder"],
+        ["xpath=//input[@id='profile_form_full_name']", "xpath:attributes"],
+        ["xpath=//form[@id='new_profile_form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8ed44ff-2e03-43f3-9f01-377920365285",
+      "comment": "",
+      "command": "type",
+      "target": "id=profile_form_full_name",
+      "targets": [
+        ["id=profile_form_full_name", "id"],
+        ["name=profile_form[full_name]", "name"],
+        ["css=#profile_form_full_name", "css:finder"],
+        ["xpath=//input[@id='profile_form_full_name']", "xpath:attributes"],
+        ["xpath=//form[@id='new_profile_form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "arva youseff"
+    }, {
+      "id": "8a003b6f-5e69-455e-b2d6-7c6f22e78bda",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.btn:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='new_profile_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccdcc352-e7d3-492b-afa3-6c43f2bec022",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ask a
