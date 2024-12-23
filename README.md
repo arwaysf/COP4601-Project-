@@ -8,8 +8,11 @@ This is our projects on automation testing of the API and UI of the OpenWeather 
 - Selenium IDE
 - Postman
 
-###Folders : 
-
+### Folders Contents: 
+- Functional requirements
+- Test Cases
+- Scenarios
+- Test Results 
 
 
 
