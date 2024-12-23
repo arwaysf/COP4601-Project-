@@ -1,4 +1,4 @@
-# COP4601-Project-
+# COP4601-Project
 ## Automation Testing (UI &amp; API) 
 This is our projects on automation testing of the API and UI of the OpenWeather website.
 
