@@ -5,9 +5,9 @@
 
    **Given**: the user is on the login page
 
-    **When**: the user enters valid credentials & clicks the login button
+   **When**: the user enters valid credentials & clicks the login button
 
-    **Then**: the user is successfully logged in
+   **Then**: the user is successfully logged in
 
 2. **Test Case 2:** Verify that an error message is shown for invalid login
 
@@ -20,13 +20,13 @@
 ### Search Functionality
 1. **Test Case 1** Submitting a Question in the "Contact us" Form
 
-    **Given**: the user is on the “Contact Us” page.
+   **Given**: the user is on the “Contact Us” page.
  
-    **When**: the user fills in the required fields and clicks on the “Submit” button.
+   **When**: the user fills in the required fields and clicks on the “Submit” button.
 
-    **Then**: The form is successfully submitted, and the confirmation message is displayed.
+   **Then**: The form is successfully submitted, and the confirmation message is displayed.
 
-2.   **Test Case 2** Submitting with missing required fields
+2. **Test Case 2** Submitting with missing required fields
 
    **Given**: the user is on the “Contact Us” page.
   
@@ -38,16 +38,18 @@
 1. **Test Case 1** Verify the access to the navigation menu
  
    **Given**: the user is on the website’s homepage.
+ 
+   **When**: the user clicks on the navigation menu.
 
-    **When**: the user clicks on the navigation menu.
-
-    **Then**: the navigation menu opens,options are displayed. 
+   **Then**: the navigation menu opens,options are displayed. 
 
 2.  **Test Case 2** Verifying a non-existent navigation item.
  
-   **Given**:the user is on the website’s homepage.
-   **When**: the user clicks on a navigation item that doesn’t exist.
-   **Then**: error page or no action happens if the page doesn’t exist.
+    **Given**:the user is on the website’s homepage.
+
+    **When**: the user clicks on a navigation item that doesn’t exist.
+
+    **Then**: error page or no action happens if the page doesn’t exist.
   
 ## Selenium Commands 
 - **verifyText**: Verify that an element contains the expected text, but still doesn't fail the test
